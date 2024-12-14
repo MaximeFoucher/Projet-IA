@@ -52,6 +52,9 @@ The model recognizes digits (0–9) and four additional calculation symbols with
 - **Hidden Layers:** One or more layers with ReLU (Rectified Linear Unit) activation functions.
 - **Output Layer:** 14 neurons (10 digits + 4 calculation symbols).
 
+![image](https://github.com/user-attachments/assets/d2e191c6-5a55-4cd2-89bd-eb57a4b8cedd)
+
+
 ### Functions Used
 - **Activation Function:** ReLU introduces non-linearity in hidden layers.
 - **Output Function:** Softmax converts predictions into probabilities.
@@ -69,6 +72,9 @@ The model recognizes digits (0–9) and four additional calculation symbols with
 - Each image is converted to a 1D vector of size 2,500 and labeled.
 - Approximately 100 examples per class are available, with potential for data augmentation.
 
+  ![image](https://github.com/user-attachments/assets/e87c6060-a726-4c82-a47a-2234744713c7)
+
+
 ### Training Process
 - Input vectors and their labels are passed to the model via the `fit` method.
 - The model adjusts its weights to learn characteristic patterns for each class.
@@ -83,6 +89,9 @@ The model recognizes digits (0–9) and four additional calculation symbols with
    - Converted to a vector.
    - Normalized.
    - Passed to the model for prediction.
+
+![image](https://github.com/user-attachments/assets/ebbb1d5c-b17f-49d6-a6df-83b36fba5341)
+
 
 ### Visualization
 - Results are displayed segment by segment, along with associated probability scores.
