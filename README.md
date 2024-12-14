@@ -145,4 +145,6 @@ We developed a functional solution for handwritten digit recognition that integr
 This project showcases how AI can simplify complex tasks by combining computer vision and machine learning. With further improvements, it could find applications in education, administration, and accessibility.
 
 ---
-https://youtu.be/sPcSD2fSxTo
+## Demonstration video
+
+[![Watch the Video](https://img.youtube.com/vi/sPcSD2fSxTo/0.jpg)](https://youtu.be/sPcSD2fSxTo)
